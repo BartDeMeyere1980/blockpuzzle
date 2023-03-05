@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+
+    font-family: Roboto;
+}
+
+body{
+
+    margin: 0;
+    background-color:rgb(13, 27, 58);
+
+}
+
+#score{
+
+    font-family: Roboto;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#gameOverUI{
+
+    width: 25%;
+    height: 15%;
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+    display: none;
+}
+
+#gameOverUI div{
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#totalpoints{
+
+    font-size: 250%;
+
+}
+
+button{
+
+    background-color: dodgerblue;
+    outline:none;
+    border: none;
+    width: 50%;
+    height: 20%;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+
+#mutesound{
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
